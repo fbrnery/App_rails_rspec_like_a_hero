@@ -9,7 +9,7 @@ group :development, :test do
 gem 'rspec-rails', '~> 3.8'
 end
 
-Ou OBS: Sem especificar versão, deixando o bundle instalar a versão mais recente:
+Ou OBS 2: Sem especificar versão, deixando o bundle instalar a versão mais recente:
 
 group :development, :test do
 gem 'rspec-rails'
