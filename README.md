@@ -35,3 +35,19 @@ $ bundle exec rspec
 
 Por fim, agora podemos trabalhar.
 
+-Tipos de generate:
+
+exemplos:
+
+a - Para gerar somente um model:
+$ rails generate model user
+
+b - Para gerar somente um controller:
+$ rails generate controller home index
+
+c - Para gerar um scaffold:
+$ rails generate scaffold User name:string city:string
+
+d - Ou para gerar somente o teste rspec especifico:
+
+$ Rails generate rspec:request User
