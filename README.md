@@ -50,27 +50,27 @@ d - Ou para gerar somente o teste rspec de request especifico:
 
 $ rails generate rspec:request User
 
-e - Conhecendo todas as opções de teste:
+e - Conhecendo todas as opções de generate do rspec:
 
 $ rails generate --help | grep rspec
 
 - Vai gerar esse resultado no terminal:
 
 Running via Spring preloader in process 10324
-  rspec:controller
-  rspec:feature
-  rspec:generators
-  rspec:helper
-  rspec:install
-  rspec:integration
-  rspec:job
-  rspec:mailer
-  rspec:model
-  rspec:observer
-  rspec:request
-  rspec:scaffold
-  rspec:system
-  rspec:view
+  - rspec:controller
+  - rspec:feature
+  - rspec:generators
+  - rspec:helper
+  - rspec:install
+  - rspec:integration
+  - rspec:job
+  - rspec:mailer
+  - rspec:model
+  - rspec:observer
+  - rspec:request
+  - rspec:scaffold
+  - rspec:system
+  - rspec:view
   
   # Por fim, agora podemos trabalhar.
 
