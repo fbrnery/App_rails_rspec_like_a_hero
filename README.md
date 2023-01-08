@@ -48,6 +48,6 @@ $ rails generate controller home index
 c - Para gerar um scaffold:
 $ rails generate scaffold User name:string city:string
 
-d - Ou para gerar somente o teste rspec especifico:
+d - Ou para gerar somente o teste rspec de request especifico:
 
 $ Rails generate rspec:request User
