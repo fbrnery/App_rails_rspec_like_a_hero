@@ -33,8 +33,6 @@ $ bundle exec rspec
 
 # 5- Depois, toda vez que vc gerar um model, controller ou um scaffold, todos os testes referentes a estes serão gerados automaticamente na pasta spec.
 
-Por fim, agora podemos trabalhar.
-
 -Tipos de generate:
 
 exemplos:
@@ -50,4 +48,29 @@ $ rails generate scaffold User name:string city:string
 
 d - Ou para gerar somente o teste rspec de request especifico:
 
-$ Rails generate rspec:request User
+$ rails generate rspec:request User
+
+e - Conhecendo todas as opções de teste:
+
+$ rails generate --help | grep rspec
+
+- Vai gerar esse resultado no terminal:
+
+Running via Spring preloader in process 10324
+  rspec:controller
+  rspec:feature
+  rspec:generators
+  rspec:helper
+  rspec:install
+  rspec:integration
+  rspec:job
+  rspec:mailer
+  rspec:model
+  rspec:observer
+  rspec:request
+  rspec:scaffold
+  rspec:system
+  rspec:view
+  
+  # Por fim, agora podemos trabalhar.
+
