@@ -11,9 +11,9 @@ Obs: se quiser especificar uma versão, faça assim:
 
 Ou OBS 2: Sem especificar versão, deixando o bundle instalar a versão mais recente:
 
-group :development, :test do
-gem 'rspec-rails'
-end
+-group :development, :test do
+-gem 'rspec-rails'
+-end
 
 # 2- Depois rode no terminal:
 
