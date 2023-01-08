@@ -1,25 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Instalando o Rspec no projeto Rails:
 
-Things you may want to cover:
+# 1- Primeiro, incluir o rspec no gemfile:
+Obs: se quiser especificar uma versão, faça assim:
 
-* Ruby version
+- group :development, :test do
+- gem 'rspec-rails', '~> 3.8'
+- end
 
-* System dependencies
+# 1.1: Ou para especificar uma versão, faça assim, e deixe o bundle instalar a versão mais recente:
 
-* Configuration
+- group :development, :test do
+- gem 'rspec-rails'
+- end
 
-* Database creation
+# 2- Depois rode no terminal:
 
-* Database initialization
+$ bundle install
 
-* How to run the test suite
+# 3- Depois disso, vc vai rodar o comando de instalação do rspec:
 
-* Services (job queues, cache servers, search engines, etc.)
+$ bin/rails generate rspec:install
 
-* Deployment instructions
+# 4- Depois, pode rodar o rspec no terminal, para testar, com os comandos:
 
-* ...
-# app_rspec_like_a_hero
+$ bin/rails spec
+
+ou 
+
+$ bundle exec rspec
+
+# 5- Depois, toda vez que vc gerar um model, controller ou um scaffold, todos os testes referentes a estes serão gerados automaticamente na pasta spec.
+
+Por fim, agora podemos trabalhar.
+
