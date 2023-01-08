@@ -5,9 +5,9 @@
 # 1- Primeiro, incluir o rspec no gemfile:
 Obs: se quiser especificar uma versão, faça assim:
 
-group :development, :test do
-gem 'rspec-rails', '~> 3.8'
-end
+- group :development, :test do
+- gem 'rspec-rails', '~> 3.8'
+- end
 
 Ou OBS 2: Sem especificar versão, deixando o bundle instalar a versão mais recente:
 
