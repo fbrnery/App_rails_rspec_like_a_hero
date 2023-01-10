@@ -84,7 +84,15 @@ Running via Spring preloader in process 10324
 Deve ficar assim, seu group:development, depois rode no terminal:
 
 $ bundle install
-  
+
+# 7 - Melhorando nosso teste com a Gem Factory Bot, primeiro adicione a gem:
+
+- gem 'factory_bot_rails'
+
+Depois, rode no terminal:
+
+$ bundle install
+
   
   # Por fim, agora podemos trabalhar.
 
