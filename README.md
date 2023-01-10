@@ -93,6 +93,12 @@ Depois, rode no terminal:
 
 $ bundle install
 
-  
+# 7.1 - Depois vamos criar a primeira factory, assim:
+
+$ mkdir spec/factories
+
+$ touch spec/factories/user.rb
+
+
   # Por fim, agora podemos trabalhar.
 
